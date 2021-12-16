@@ -1,0 +1,72 @@
+style.css
+
+h1 {
+	color: #153243;
+	font-size: 50px;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 1px;
+
+	}
+
+body{
+	background-color:#ffedd8;
+	font-weight: 100;
+
+	}
+
+.fond-blanc {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+	}
+
+#image-circle {
+	border-radius: 40px;
+	}
+
+.btn {
+	background-color: #ffedd8;
+	color: black;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: 5px;
+
+	}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+	}
+
+	a:hover {
+		background-color: #d4a373;
+	}
+
+}
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+.container {
+	width: 700px;
+	margin: 0 auto;
+	
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+ 
